@@ -132,6 +132,10 @@ header {
     padding: 0;
 }
 
+.active {
+    text-decoration-line: underline;
+}
+
 .menuitem {
     height: 120px;
     text-align: center;
@@ -303,6 +307,10 @@ footer {
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
+}
+
+.timeline-item h4 {
+    font-size: 1.1rem;
 }
 
 .timeline-item p {
